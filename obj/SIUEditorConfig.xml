@@ -5,18 +5,19 @@
   <target-player>10.1</target-player>
   <benchmark>false</benchmark>
   <static-link-runtime-shared-libraries>true</static-link-runtime-shared-libraries>
+  <use-network>false</use-network>
   <compiler>
     <define append="true">
       <name>CONFIG::debug</name>
-      <value>true</value>
-    </define>
-    <define append="true">
-      <name>CONFIG::release</name>
       <value>false</value>
     </define>
     <define append="true">
+      <name>CONFIG::release</name>
+      <value>true</value>
+    </define>
+    <define append="true">
       <name>CONFIG::timeStamp</name>
-      <value>'7/18/2013'</value>
+      <value>'7/24/2013'</value>
     </define>
     <define append="true">
       <name>CONFIG::air</name>
@@ -30,7 +31,8 @@
       <name>CONFIG::desktop</name>
       <value>false</value>
     </define>
-    <verbose-stacktraces>true</verbose-stacktraces>
+    <optimize>true</optimize>
+    <verbose-stacktraces>false</verbose-stacktraces>
     <source-path append="true">
       <path-element>D:\Velocity\Dropbox\Velo FFR\SIU-Editor\src</path-element>
       <path-element>C:\Program Files (x86)\FlashDevelop\Library\AS3\classes</path-element>
